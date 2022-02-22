@@ -19,4 +19,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           target: ${{ secrets.SSH_DIR }}
-          source: "pageData.js"
+          source: "data/pageData.js"
