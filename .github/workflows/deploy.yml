@@ -18,6 +18,5 @@ jobs:
           port: ${{ secrets.PORT }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
-          remote: ${{ secrets.SSH_DIR }}
+          target: ${{ secrets.SSH_DIR }}
           source: "data/pageData.js"
-          target: "pageData.js"
