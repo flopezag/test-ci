@@ -5,7 +5,7 @@ const fs = require('fs')
 // Creating a server
 http.createServer(function (req, res) {
 
-    fs.readFile('pageData.js', 'utf8' , (err, data) => {
+    fs.readFile('./data/pageData.js', 'utf8' , (err, data) => {
         if (err) {
             console.error(err)
             return
